@@ -8,7 +8,7 @@ Saya selalu memperbarui portofolio ini, jadi saya akan menampilkan pembaruan yan
 
 <br />
 
-![image](https://github.com/Wira07/Portofolio/assets/62601767/a7478355-f37d-4601-b386-ee970df58172)
+![image](https://github.com/Wira07/Portofolio_2024/blob/master/assets/img/image4.png)
 > Belum dalam versi rilis
 
 <br />
