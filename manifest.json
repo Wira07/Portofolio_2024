@@ -1,0 +1,50 @@
+{
+    "short_name": "N3sca Portfolio",
+    "name": "N3sca Portfolio",
+    "icons": [
+        {
+            "src": "assets/icons/favicon-16x16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "assets/icons/favicon-32x32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "assets/icons/N_gold_back_120x120.png",
+            "type": "image/png",
+            "sizes": "120x120"
+        },
+        {
+            "src": "assets/icons/N_gold_back_152x152.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "assets/icons/N_gold_back_167x167.png",
+            "type": "image/png",
+            "sizes": "167x167"
+        },
+        {
+            "src": "assets/icons/N_gold_back_180x180.png",
+            "type": "image/png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "assets/icons/N_gold_back_512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "index.html",
+    "background_color": "#2b3137",
+    "orientation": "portrait-primary",
+    "display_override": ["fullscreen", "minimal-ui"],
+    "display": "standalone",
+    "theme_color": "#24292e",
+    "description": "N3sca Portfolio",
+    "prefer_related_applications": false
+}
+

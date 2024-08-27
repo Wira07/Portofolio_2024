@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/N_gold_back_180x180.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="assets/icons/N_gold_back_167x167.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/N_gold_back_152x152.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/icons/N_gold_back_120x120.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png" />
+    <link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#0c5647" />
+
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#24292e" />
+
+    <link rel="manifest" href="manifest.json" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/thejs.js"></script>
+    <script src="https://kit.fontawesome.com/885fd7a3fc.js" crossorigin="anonymous"></script>
+
+    <title>Portofolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/img/wira.jpeg" />
+          <a href="index.html">Wira Sukma Saputra</a>
+        </a>
+      </div>
+      <div class="nav-links">
+        <div class="nav-links">
+          <a class="selected" href="index.html">Beranda</a>
+          <a href="projects.html">Proyek</a>
+          <a href="about.html">Tentang</a>
+          <a href="termsandpolicies.html">Syarat dan Ketentuan</a>
+        </div>
+        <div>
+          <a href="#" onclick="themes(); return false;"><i id="themeS" class="fa-solid fa-moon"></i></a>
+          <script>
+            if (document.querySelector("html").getAttribute("data-theme") == "dark") {
+              document.getElementById("themeS").classList.replace("fa-moon", "fa-sun");
+            }
+          </script>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main">
+      <div class="info">
+        <p style="font-size: 20px; margin-top: -20px;"><h1>Halo, Saya Wira Sukma Saputra </h1> Fullstack Designer Enthusiast | Mobile Development | Web Developer | Freelancer</p>
+        <p>
+          Saya adalah seorang Android Developer yang berpengalaman dalam mendesain, menciptakan, dan memproduksi aplikasi Android menggunakan Kotlin dan XML. Saya juga memiliki keahlian dalam slicing desain dari Figma ke XML, serta terampil
+          dalam pengembangan aplikasi mobile dan web. Dengan latar belakang Teknik Informatika, saya fokus pada pembuatan solusi yang user-centric dengan memadukan desain UI/UX yang inovatif dan pengembangan teknologi yang optimal.
+          <br />
+          Umur saya 22 tahun.
+        </p>
+        <div class="socials">
+          <a href="#" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://github.com/Wira07" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/wira-sukma-saputra/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <input id="joke" type="button" value="Tunggu!, siapa itu Wira?? (klik)" onclick="themes();jokebutton(this)" />
+        <input id="notjoke" style="display: none" type="button" value="Ups, fungsi salah... klik lagi!" onclick="themes();window.location.href = './about.html'" />
+      </div>
+      <img src="assets/img/Wira2.png" style="padding: 40px" />
+    </div>
+
+    <div class="mainskills">
+      <div class="container">
+        <div class="skills">
+          <div class="colum columimg">
+            <img src="assets/img/Wira2.png" alt="" />
+          </div>
+          <div class="colum">
+            <div>
+              Kotlin <br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div>
+              XML <br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div>
+              UI/UX Design <br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="colum">
+            <div>
+              Java <br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div>
+              Figma <br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div>
+              PHP <br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="colum border-left padding-left">
+            <div>
+              HTML <br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div>
+              CSS <br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div>
+              JavaScript <br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="separator">
+      <h4>Proyek Pilihan</h4>
+    </div>
+    <div class="projects">
+      <div class="item" onclick="location.href='./projects/goldendashboard.html'">
+        <div class="clickhere">Favorit <i class="fa-solid fa-face-grin-stars"></i></div>
+        <div class="clickhere2">Anda bisa klik <i class="fa-solid fa-face-surprise"></i></div>
+        <img src="assets/img/image.png" />
+        <div class="details">
+          <h3>Golden Dashboard</h3>
+          <div class="item-info">
+            <div class="year-badge">2024</div>
+            <h4>HTML/CSS/JS</h4>
+          </div>
+          <p>
+            Ini adalah sebuah dashboard, ya! Jangan bosan, Anda bisa cek proyek lain
+            <br />
+            <mark>&nbsp;<u>Proyek</u> Saat Ini!&nbsp;</mark>
+          </p>
+          <div class="socials">
+            <a href="https://github.com/N3sca/golden-dashboard"><i class="fa-brands fa-github"></i></a>
+            <a href="https://golden-dashboard-vercel.vercel.app"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="item" onclick="location.href='./projects/todo.html'">
+        <div class="clickhere"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <div class="clickhere2">Anda bisa klik <i class="fa-solid fa-face-surprise"></i></div>
+        <img src="assets/img/image2.png" />
+        <div class="details">
+          <h3>Magic Courses</h3>
+          <div class="item-info">
+            <div class="year-badge">2024</div>
+            <h4>Kotlin/Java/Android</h4>
+          </div>
+          <p>Ini adalah aplikasi To-Do, dimana Anda bisa menambah dan mengelola tugas harian Anda. Fitur yang menarik dan user-friendly menjadi fokus utama pengembangan aplikasi ini.</p>
+          <div class="socials">
+            <a href="https://github.com/Wira07/todo-app"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="item" onclick="location.href='./projects/edukids.html'">
+        <div class="clickhere"><i class="fa-solid fa-graduation-cap"></i><i class="fa-solid fa-book"></i></div>
+        <div class="clickhere2">Anda bisa klik <i class="fa-solid fa-face-surprise"></i></div>
+        <img src="assets/img/image3.png" />
+        <div class="details">
+          <h3>Purnama Katering</h3>
+          <div class="item-info">
+            <div class="year-badge">2023</div>
+            <h4>Kotlin/XML/Android</h4>
+          </div>
+          <p>
+            Edukids adalah aplikasi edukasi yang ditujukan untuk anak-anak usia dini. Aplikasi ini menyediakan berbagai fitur pembelajaran interaktif yang menggabungkan elemen-elemen permainan untuk meningkatkan pengalaman belajar anak.
+          </p>
+          <div class="socials">
+            <a href="https://github.com/Wira07/edukids"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2024 Wira Sukma Saputra | All Rights Reserved</p>
+    </div>
+  </body>
+</html>
