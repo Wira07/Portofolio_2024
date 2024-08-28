@@ -4,7 +4,7 @@ Saya selalu memperbarui portofolio ini, jadi saya akan menampilkan pembaruan yan
 
 > Lihat contoh di Vercel:
 > <br />
-<!-- > [https://portofolio-vercel-eight.vercel.app](https://portofolio-vercel-eight.vercel.app) -->
+[https://portofolio-2024-wira-sukma-saputra.vercel.app/](https://portofolio-2024-wira-sukma-saputra.vercel.app/)
 
 <br />
 
